@@ -1,0 +1,55 @@
+	int a[max], n;
+	clrscr();
+	cout << "Nhap so phan tu n<" << max << ", n= ";
+	cin >> n;
+	nhap(a, n);
+	cout << "Mang truoc khi sap xep :\n";
+	xuat(a, n);
+	sapxep(a, n);
+	cout << "\nMang sau khi sap xep :\n";
+	xuat(a, n);
+}
+
+void nhap(int a[], int n)
+{
+	int i;
+	cout << "Nhap cac phan tu cua mang :\n";
+	for (i = 0; i < n; i++)
+	{
+		cout << "A[" << i + 1 << "]=";
+		cin >> a[i];
+	}
+}
+
+void xuat(int a[], int n)
+{
+	int i, j;
+	for (i = 0; i < n; i++) cout << a[i] << " ";
+}	int a[max], n;
+	clrscr();
+	cout << "Nhap so phan tu n<" << max << ", n= ";
+	cin >> n;
+	nhap(a, n);
+	cout << "Mang truoc khi sap xep :\n";
+	xuat(a, n);
+	sapxep(a, n);
+	cout << "\nMang sau khi sap xep :\n";
+	xuat(a, n);
+}
+
+void nhap(int a[], int n)
+{
+	int i;
+	cout << "Nhap cac phan tu cua mang :\n";
+	for (i = 0; i < n; i++)
+	{
+		cout << "A[" << i + 1 << "]=";
+		cin >> a[i];
+	}
+}
+
+void xuat(int a[], int n)
+{
+	int i, j;
+	for (i = 0; i < n; i++) cout << a[i] << " ";
+}
